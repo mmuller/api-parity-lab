@@ -58,6 +58,12 @@ The companion validation suite verifies:
 
 ---
 
+## Example Validation Report
+
+![API Parity Validation Report](docs/images/api-parity-report.png)
+
+---
+
 ## Clone Repository
 
 ```bash
