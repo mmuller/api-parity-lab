@@ -1,0 +1,38 @@
+# Virtual environments
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+
+# IDEs
+.idea/
+.vscode/
+
+# Packaging
+*.egg-info/
+*.eggs/
+dist/
+build/
+*.whl
+
+# Database artifacts
+*.db
+
+# Logs
+logs/
+!logs/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp/editor files
+*~
+*.bak
+*.swp
