@@ -38,7 +38,7 @@ def create_order_endpoint(
     return {
         "success": True,
         "order_id": order.id,
-        "amount": payload.get("amount")  # source of truth API
+        "amount": payload.get("amount")  # Response intentionally returns original request value
     }
 
 @app.middleware("http")
